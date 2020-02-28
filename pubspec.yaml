@@ -1,0 +1,49 @@
+name: museums_guide
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  
+  cupertino_icons: ^0.1.3
+  http: ^0.12.0+4
+  connectivity: ^0.4.6+2
+  firebase_admob: ^0.9.0+10
+  google_maps_flutter: ^0.5.22
+  shape_of_view: ^1.0.2
+  auto_size_text: ^2.1.0
+  flutter_inner_drawer: ^0.5.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+   - assets/images/flags/
+   - assets/data/flags.json
+
+
+
+  fonts:
+    - family: Changa
+      fonts:
+        - asset: assets/fonts/Changa.ttf
+
+    - family: ReemKufi
+      fonts:
+        - asset: assets/fonts/ReemKufi.ttf
+
+
